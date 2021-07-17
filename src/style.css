@@ -3,7 +3,9 @@
     font-size: 30px;
 }
 body{
-    background-color: rgb(255, 30, 236);
+    background: #c31432; 
+    background: -webkit-linear-gradient(to right, #240b36, #c31432); 
+    background: linear-gradient(to right, #240b36, #c31432);
 }
 .grid{
     display: grid;
@@ -16,4 +18,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+button.btn.btn-secondary {
+    align-items: center;
+    text-align: center;
+    left: 36%;
+    position: relative;
+    margin-bottom: 30px;
+    background-color: green;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.text-centre{
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    margin-bottom: 20px;
 }
